@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import TodoList from './component/Todolist/TodoList'
+import TodoList from './components/TodoList/TodoList'
 
 function App() {
   return (
@@ -9,5 +9,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

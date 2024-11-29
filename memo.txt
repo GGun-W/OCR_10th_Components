@@ -2,3 +2,13 @@
 
 1-1. conponents 폴더 => TodoList 폴더 생성
 1-2. 목록이 적힌 TodoList.jsx 컴퍼넌트 생성
+
+2. AddTodo_Components 생성
+
+2-1. conponents 폴더 => AddTodo 폴더 생성
+2-2. 할 일을 추가하는 AddTodo.jsx 컴퍼넌트 생성
+2-3. handleSubmit 함수를 사용하기 위한 yarn add uuid 설치
+
+    기본 이벤트를 방지하고 (e.preventDefault()), 사용자가 입력한 텍스트가 비어있지 않은 경우에만 작업
+    텍스트가 유효하면 onAdd 함수를 호출하고, 고유 ID(uuidv4()로 생성된), 입력된 텍스트, 그리고 상태('active')를 가진 객체를 생성하여 추가
+    그 후 입력 필드를 초기화
