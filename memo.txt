@@ -1,9 +1,21 @@
 1. OCR_TodoList_Components 초안
 
+    하단 부분 컴퍼넌트 생성
+        • 커피사기
+        • 리액트 공부하기
+
     1-1. conponents 폴더 => TodoList 폴더 생성
     1-2. 목록이 적힌 TodoList.jsx 컴퍼넌트 생성
 
+
 2. AddTodo_Components 생성
+
+    TodoList에 추가할 수 있는 Input, 추가버튼 생성
+    예)
+        • 커피사기
+        • 리액트 공부하기
+        • 운동하기 (추가됨)
+        [ input: 운동하기 ] [ Add: 추가 ]
 
     2-1. conponents 폴더 => AddTodo 폴더 생성
     2-2. 할 일을 추가하는 AddTodo.jsx 컴퍼넌트 생성
@@ -15,6 +27,7 @@
 
             https://www.npmjs.com/ 참조
 
+
 3. Todo_Components 생성
 
     3-1. conponents 폴더 => Todo 폴더 생성
@@ -23,3 +36,17 @@
              
             https://react-icons.github.io/react-icons/icons/fi/ 리액트 아이콘 사용
             yarn add react-icons 설치
+
+
+4. Header_Components 생성
+
+    Button 3개 생성
+        전체 / 할 일 / 완료 => 리스트로 생성 (스타일 넣기에 용이함)
+        예) 
+            • 전체 => 전체 출력
+            • 할일 => active만 출력
+            • 완료 => completed만 출력
+
+    4-1. Header 생성
+    4-2.
+    4-3.
