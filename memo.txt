@@ -1,0 +1,4 @@
+1. OCR_TodoList_Components 초안
+
+1-1. conponents 폴더 => TodoList 폴더 생성
+1-2. 목록이 적힌 TodoList.jsx 컴퍼넌트 생성
